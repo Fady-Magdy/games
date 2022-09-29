@@ -1,17 +1,30 @@
 {
   "files": {
-    "main.css": "/games/static/css/main.ba4c5cac.css",
-    "main.js": "/games/static/js/main.54ad04a1.js",
+    "main.css": "/games/static/css/main.f1963e79.css",
+    "main.js": "/games/static/js/main.9eef2801.js",
+    "static/media/react.png": "/games/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/Python.png": "/games/static/media/Python.7fc4f0e4976a4bbdcba6.png",
+    "static/media/cplus.png": "/games/static/media/cplus.5185ce2f4c945505ee4f.png",
     "static/media/tic-tac-toe.png": "/games/static/media/tic-tac-toe.745dae3cca12797344af.png",
+    "static/media/PHP.png": "/games/static/media/PHP.a7759c068d5c9f03bebf.png",
     "static/media/robot.jpg": "/games/static/media/robot.84a29590076b4636f1d9.jpg",
+    "static/media/css.png": "/games/static/media/css.4e67641bb68b658d9b2b.png",
+    "static/media/Angular.png": "/games/static/media/Angular.08e23bc5127571e5b3d4.png",
+    "static/media/memory.png": "/games/static/media/memory.ee15e0ca290b06a50464.png",
+    "static/media/html.png": "/games/static/media/html.23784160d848f734c302.png",
     "static/media/cat2.jpg": "/games/static/media/cat2.26bc52bc8f523bce2c60.jpg",
+    "static/media/c.png": "/games/static/media/c.bf0af88d24cd724c83bc.png",
+    "static/media/go.png": "/games/static/media/go.e6dce75e6ede76541484.png",
+    "static/media/js.png": "/games/static/media/js.d56693f347d9bfcd32ba.png",
     "static/media/cat.jpg": "/games/static/media/cat.a0259fc2db3616607416.jpg",
+    "static/media/cSharp.svg": "/games/static/media/cSharp.a7ec03d256f307422701fb3e4c812f76.svg",
+    "static/media/swift.svg": "/games/static/media/swift.75f20f67a72ea6eb709242278fbc431b.svg",
     "index.html": "/games/index.html",
-    "main.ba4c5cac.css.map": "/games/static/css/main.ba4c5cac.css.map",
-    "main.54ad04a1.js.map": "/games/static/js/main.54ad04a1.js.map"
+    "main.f1963e79.css.map": "/games/static/css/main.f1963e79.css.map",
+    "main.9eef2801.js.map": "/games/static/js/main.9eef2801.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba4c5cac.css",
-    "static/js/main.54ad04a1.js"
+    "static/css/main.f1963e79.css",
+    "static/js/main.9eef2801.js"
   ]
 }
