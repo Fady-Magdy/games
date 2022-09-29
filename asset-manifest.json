@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/games/static/css/main.9d5b74dc.css",
-    "main.js": "/games/static/js/main.03c4c629.js",
+    "main.css": "/games/static/css/main.ba4c5cac.css",
+    "main.js": "/games/static/js/main.54ad04a1.js",
+    "static/media/tic-tac-toe.png": "/games/static/media/tic-tac-toe.745dae3cca12797344af.png",
+    "static/media/robot.jpg": "/games/static/media/robot.84a29590076b4636f1d9.jpg",
+    "static/media/cat2.jpg": "/games/static/media/cat2.26bc52bc8f523bce2c60.jpg",
+    "static/media/cat.jpg": "/games/static/media/cat.a0259fc2db3616607416.jpg",
     "index.html": "/games/index.html",
-    "main.9d5b74dc.css.map": "/games/static/css/main.9d5b74dc.css.map",
-    "main.03c4c629.js.map": "/games/static/js/main.03c4c629.js.map"
+    "main.ba4c5cac.css.map": "/games/static/css/main.ba4c5cac.css.map",
+    "main.54ad04a1.js.map": "/games/static/js/main.54ad04a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d5b74dc.css",
-    "static/js/main.03c4c629.js"
+    "static/css/main.ba4c5cac.css",
+    "static/js/main.54ad04a1.js"
   ]
 }
