@@ -5,7 +5,7 @@ import cat2Img from "./images/cat2.jpg";
 import "./ticTacToe.scss";
 
 const TicTacToe = () => {
-  document.title = "Games - Tic Tac Toe"
+  document.title = "Games - Tic Tac Toe";
   const [currentPlayer, setCurrentPlayer] = useState("x");
   const [preventPlay, setPreventPlay] = useState(false);
   const [robotMode, setRobotMode] = useState(true);
@@ -166,7 +166,7 @@ const TicTacToe = () => {
         setCurrentPlayer("x");
         playedTurns.current += 1;
         checkWinner();
-      }, 1300);
+      }, 400);
     }
   }
 

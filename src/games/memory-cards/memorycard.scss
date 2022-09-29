@@ -1,0 +1,133 @@
+.memory-card {
+  padding: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(42, 27, 51);
+  .game-title {
+    color: #fff;
+    font-family: "lobster", sans-serif;
+    letter-spacing: 2px;
+    font-size: 45px;
+  }
+  .details {
+    margin-top: 100px;
+    width: 450px;
+    display: flex;
+    gap: 40px;
+    .score {
+      color: #fff;
+    }
+    .true-answers {
+      color: #fff;
+    }
+  }
+  .completed-msg {
+    position: absolute;
+    margin-top: 250px;
+    scale: 0;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &.complete {
+      scale: 1;
+      z-index: 4;
+    }
+    h2,
+    h3 {
+      color: #fff;
+      margin: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: #fff;
+      background-color: rgb(95, 0, 173);
+      border: none;
+      font-weight: 600;
+      font-size: 16px;
+      margin-top: 15px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(127, 12, 221);
+      }
+    }
+  }
+  .cards {
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 1s;
+    gap: 20px;
+    .card {
+      width: 100px;
+      height: 130px;
+      position: relative;
+      perspective: 400px;
+      &.flip {
+        .image {
+          transform: rotateY(-180deg);
+          &.back {
+            transform: rotateY(0deg);
+          }
+        }
+      }
+      .image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        transition: 0.8s transform;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        background-color: #fff;
+        img {
+          width: 80%;
+        }
+      }
+      .front {
+        cursor: pointer;
+        &:hover {
+          filter: brightness(0.8);
+        }
+      }
+      .back {
+        transform: rotateY(180deg);
+      }
+    }
+    &.complete {
+      scale: 0;
+    }
+  }
+  .cover-game {
+    padding-top: 600px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .memory-card {
+    .details {
+      width: 370px;
+    }
+    .cards {
+      scale: 0.8;
+    }
+  }
+}
