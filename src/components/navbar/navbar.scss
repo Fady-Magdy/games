@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 50px;
+  background-color: rgb(26, 13, 37);
+  color: #fff;
+  .brand {
+    margin: 0;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    li {
+      a {
+        position: relative;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 1px;
+        transition: 0.2s;
+        &:hover {
+          color: rgb(117, 250, 255);
+        }
+        &::after {
+          position: absolute;
+          content: "";
+          right: -14px;
+          height: 17px;
+          width: 3px;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}

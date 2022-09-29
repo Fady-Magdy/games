@@ -1,0 +1,44 @@
+.home {
+  .cards-list {
+    padding: 50px;
+    .game-card {
+      border-radius: 5px;
+      overflow: hidden;
+
+      width: 300px;
+      color: #fff;
+      .top {
+        width: 100%;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        img {
+          width: 100%;
+        }
+      }
+      .bottom {
+        padding: 20px;
+        background-color: rgb(11, 19, 24);
+        .game-title {
+          margin: 0;
+        }
+        .game-description {
+          opacity: 0.6;
+          line-height: 25px;
+        }
+        .game-btn {
+          display: inline-block;
+          margin-top: 20px;
+          background-color: rgb(21, 128, 0);
+          color: #fff;
+          padding: 7px 20px;
+          border-radius: 5px;
+          text-decoration: none;
+          font-weight: 600;
+          &:hover {
+            filter: brightness(1.3);
+          }
+        }
+      }
+    }
+  }
+}
